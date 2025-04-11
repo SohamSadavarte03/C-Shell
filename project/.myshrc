@@ -1,0 +1,14 @@
+alias reveall=reveal -l
+alias hopp=hop ..
+
+mk_hop()
+{
+	  mkdir "$1"
+	  hop "$1"
+}
+
+hop_seek()
+{
+    hop "$1"
+    seek "$1"
+}
